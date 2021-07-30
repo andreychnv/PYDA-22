@@ -1,0 +1,130 @@
+1:  surgery?
+          1 = Yes, it had surgery
+          2 = It was treated without surgery
+1: операция?
+1 = Да, ему сделали операцию
+2 = Его лечили без хирургического вмешательства
+
+  2:  Age
+          1 = Adult horse
+          2 = Young (< 6 months)
+2: Возраст
+1 = Взрослая лошадь
+2 = Молодые (< 6 месяцев)
+
+
+  4:  rectal temperature
+          - linear
+          - in degrees celsius.
+          - An elevated temp may occur due to infection.
+          - temperature may be reduced when the animal is in late shock
+          - normal temp is 37.8
+          - this parameter will usually change as the problem progresses
+               eg. may start out normal, then become elevated because of
+                   the lesion, passing back through the normal range as the
+                   horse goes into shock
+				   
+4: ректальная температура
+- линейный
+- в градусах Цельсия.
+- Повышенная температура может возникнуть из-за инфекции.
+- температура может быть снижена, когда животное находится в состоянии позднего шока
+- нормальная температура составляет 37,8
+- этот параметр обычно меняется по мере развития проблемы
+например, может начаться нормально, а затем стать повышенным из-за
+повреждение, проходящее обратно через нормальный диапазон, когда
+лошадь впадает в шок				   
+				   
+				   
+  5:  pulse
+          - linear
+          - the heart rate in beats per minute
+          - is a reflection of the heart condition: 30 -40 is normal for adults
+          - rare to have a lower than normal rate although athletic horses
+            may have a rate of 20-25
+          - animals with painful lesions or suffering from circulatory shock
+            may have an elevated heart rate
+			
+5: пульс
+- линейный
+- частота сердечных сокращений в ударах в минуту
+- является отражением состояния сердца: 30 -40-это нормально для взрослых
+- редко бывает, чтобы скорость была ниже нормальной, хотя спортивные лошади
+может иметь скорость 20-25
+- у животных с болезненными поражениями или страдающих от шока кровообращения
+может быть повышенная частота сердечных сокращений			
+
+			
+
+  6:  respiratory rate
+          - linear
+          - normal rate is 8 to 10
+          - usefulness is doubtful due to the great fluctuations
+		  
+6: частота дыхания
+- линейный
+- нормальная скорость составляет от 8 до 10
+- полезность сомнительна из-за больших колебаний
+		  
+		  
+
+  7:  temperature of extremities
+          - a subjective indication of peripheral circulation
+          - possible values:
+               1 = Normal
+               2 = Warm
+               3 = Cool
+               4 = Cold
+          - cool to cold extremities indicate possible shock
+          - hot extremities should correlate with an elevated rectal temp.
+		  
+7: температура конечностей
+- субъективный признак периферического кровообращения
+- возможные значения:
+1 = Нормальный
+2 = Теплый
+3 = Круто
+4 = Холодные
+- холодные до холодных конечностей указывают на возможный шок
+- горячие конечности должны коррелировать с повышенной температурой прямой кишки.		  
+		  
+
+
+ 11: pain - a subjective judgement of the horse's pain level
+          - possible values:
+               1 = alert, no pain
+               2 = depressed
+               3 = intermittent mild pain
+               4 = intermittent severe pain
+               5 = continuous severe pain
+          - should NOT be treated as a ordered or discrete variable!
+          - In general, the more painful, the more likely it is to require
+            surgery
+          - prior treatment of pain may mask the pain level to some extent
+		  
+11: боль - субъективное суждение об уровне боли лошади
+- возможные значения:
+1 = тревога, боли нет
+2 = подавлен
+3 = прерывистая легкая боль
+4 = прерывистая сильная боль
+5 = постоянная сильная боль
+- не следует рассматривать как упорядоченную или дискретную переменную!
+- В общем, чем больнее, тем больше вероятность того, что это потребует
+хирургия
+- предварительное лечение боли может в некоторой степени маскировать уровень боли		  
+ 
+
+ 23: outcome
+          - what eventually happened to the horse?
+          - possible values:
+               1 = lived
+               2 = died
+               3 = was euthanized
+			   
+23: результат
+- что в конце концов случилось с лошадью?
+- возможные значения:
+1 = прожил
+2 = умер
+3 = подвергся эвтаназии			   
